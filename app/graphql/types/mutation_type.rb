@@ -5,4 +5,6 @@ Types::MutationType = GraphQL::ObjectType.define do
   field :updateMovie, function: Resolvers::UpdateMovie.new
   field :deleteMovie, function: Resolvers::DeleteMovie.new
   field :createReview, function: Resolvers::CreateReview.new
+  field :updateReview, function: Resolvers::UpdateReview.new
+  field :deleteReview, function: Resolvers::DeleteReview.new
 end
